@@ -49,7 +49,7 @@ def update():
 
 	# grab GonRain status from file
 
-	basedir = '/Users/charliereinhardt/Documents/Coding_Shenanigans/GonRainProject/twitterbotv2/'
+	basedir = 'root'
 	filename = 'today_status.txt'
 	file = basedir + filename
 
