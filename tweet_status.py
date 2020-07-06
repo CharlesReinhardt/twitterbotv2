@@ -52,7 +52,7 @@ date = date_format(today[0], today[1], today[2])
 
 # grab GonRain status from file
 
-basedir = '/Users/charliereinhardt/Documents/Coding_Shenanigans/GonRainProject/twitterbotv2/'
+basedir = 'root'
 filename = 'today_status.txt'
 file = basedir + filename
 
