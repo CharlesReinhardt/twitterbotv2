@@ -14,7 +14,7 @@ import update_func as u
 
 url = 'https://weather.com/weather/tenday/l/Minneapolis+MN?canonicalCityId=c41f9794b3d2e73e76735276a2b073711dc220e4944a75a2ab0f9b91e91472d0'
 
-basedir = '/Users/charliereinhardt/Documents/Coding_Shenanigans/GonRainProject/twitterbotv2/'
+basedir = 'root'
 filename = 'today_status.txt'
 file = basedir + filename
 
@@ -31,6 +31,6 @@ if saved_status < current_status:
 	# change saved status
 	s.save()
 	# tweet
-	# u.update()
+	u.update()
 else: 
 	print('status not different')
