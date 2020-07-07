@@ -61,6 +61,15 @@ def update():
 
 	status = text[loc1:loc2]
 
+	# find tweet id to reply to
+
+	_id = api.user_timeline()[0].id
+
+	# build and tweet text
+
+	text = date + ' UPDATE: ' + status
+	api.update_status(text, _id)
+	
 	# build and tweet text
 
 	text = date + ' UPDATE: ' + status
