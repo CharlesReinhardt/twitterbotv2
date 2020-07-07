@@ -70,7 +70,3 @@ def update():
 	text = date + ' UPDATE: ' + status
 	api.update_status(text, _id)
 	
-	# build and tweet text
-
-	text = date + ' UPDATE: ' + status
-	api.update_status(text)
